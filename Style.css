@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=PT+Serif+Caption&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=PT+Serif+Caption&family=Poppins:wght@500&family=Squada+One&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(background.jpg);
+}
+input {
+	width: 100%;
+	outline: none;
+	border-color: #FFFFE8;
+	border-radius: 5px;
+	height: 30px;
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Gilda Display', serif;
+}
+h2 {
+	font-family: 'Squada One', cursive;
+	font-size: 50px;
+	text-align: center;
+	margin: 130px auto 0px;
+	padding-bottom: 50px;
+	color: white;
+}
+h3 {
+	font-size: 40px;
+	position: absolute;
+	margin-top:10px;
+	margin-left: 160px;
+	font-family: 'Squada One', cursive;
+}
+textarea {
+	outline: none;
+	border-color: #FFFFE8;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+img {
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	width: 90%;
+}
+button {
+	width: 100%;
+	cursor: pointer;
+	color: white;
+	background: orange;
+	border-style: none;
+	border-radius: 15px;
+	padding: 10px;
+	font-size: 25px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition-duration: 0.5s ease;
+}
+label {
+	font-family: 'Poppins', sans-serif;
+}
+.btn:hover, .btn:focus, .btn:active {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	transform: scale(1.1);
+
+
+}
+.hero-img {
+	margin-top: 5px;
+	position: relative;
+}
+.heading {
+	margin-top: 200px;
+	margin-left: 700px;
+	
+}
+.main {
+	border-radius: 20px;
+	width: 80%;
+	background: #FFFFFF;
+	margin: 0px auto;
+	display: flex;
+}
+.form1 {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.form2 {
+	margin-left: 80px;
+	margin-right: 20px;
+	width: 40%;
+}
+.same {
+	padding-top: 40px;
+}
+@media (max-width: 1000px){
+	.main{
+		display: block;
+	}
+	img {
+		width: 100%;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+	h3 {
+		margin-left: 300px;
+	}
+	.form1 {
+		margin-top: 30px;
+		margin-left: 100px;
+	}
+	.form2 {
+		margin-left: 200px;
+	}
+}
+@media (max-width: 800px) {
+	h3 {
+		margin-left: 150px;
+	}
+	.form1 {
+		margin-left: 30px;
+	}
+	.form2 {
+		margin-left: 100px;
+	}
+}
+
+
+
