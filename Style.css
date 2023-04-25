@@ -129,6 +129,21 @@ label {
 		margin-left: 100px;
 	}
 }
+@media (max-width: 400px) {
+	.form1 {
+		display: block;
+		width: 80%;
+	}
+	.form2 {
+		margin-left: 0px;
+		width: 80%;
+	}
+	h3 {
+		font-size: 25px;
+		margin-left: 90px;
+	}
+}
+
 
 
 
